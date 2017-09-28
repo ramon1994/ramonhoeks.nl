@@ -59,12 +59,12 @@
       "id": "146CABE9-9B6E-463B-8672-3A8B541EE756"
     },
     {
-      "class": "group",
-      "id": "B68F9795-AC44-4EC5-AB4F-402608A44B9A"
+      "class": "shapeGroup",
+      "id": "86B03E2F-5B0D-41DC-A00E-3DB73A2E7067"
     },
     {
-      "class": "text",
-      "id": "A8113B45-4AFB-408C-A049-CE5FE91CF3BC"
+      "class": "group",
+      "id": "B68F9795-AC44-4EC5-AB4F-402608A44B9A"
     },
     {
       "class": "shapeGroup",
@@ -101,6 +101,14 @@
     {
       "class": "group",
       "id": "58D5321B-F516-4CCA-A23C-5422D33E1ADA"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "B9C4788D-0BD9-4F52-8E51-9E78C4C29801"
+    },
+    {
+      "class": "text",
+      "id": "C0271D06-5AC1-4317-BF06-FD12C738B284"
     }
   ],
   "layout": {
@@ -120,7 +128,7 @@
   },
   "name": "History",
   "nameIsFixed": true,
-  "resizesContent": false,
+  "resizesContent": true,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
@@ -137,7 +145,8 @@
     "guides": [
       80,
       1000,
-      280
+      280,
+      831
     ]
   }
 }
