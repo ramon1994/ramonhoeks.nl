@@ -13,10 +13,10 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 152,
+    "height": 149,
     "width": 545,
     "x": 686,
-    "y": 464
+    "y": 465
   },
   "hasClickThrough": false,
   "isFlippedHorizontal": false,
@@ -27,19 +27,11 @@
   "layers": [
     {
       "class": "group",
-      "id": "8F445C1B-4E9B-42B1-8D33-0D3B8F0F5681"
-    },
-    {
-      "class": "group",
-      "id": "841F5CB7-666D-43D0-8C46-9E2CF228E5DA"
-    },
-    {
-      "class": "group",
-      "id": "FDBF8042-4CA8-499C-A457-16E2F5B85438"
-    },
-    {
-      "class": "group",
       "id": "E21D3DDB-B958-4A0C-AB18-FC652C6C7CBC"
+    },
+    {
+      "class": "bitmap",
+      "id": "28358CBE-735B-4128-8296-A09C88A7B8B8"
     }
   ],
   "name": "content home slide",
