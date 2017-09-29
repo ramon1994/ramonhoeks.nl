@@ -1,0 +1,59 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGXF1YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxAcHR4fJysyNTo+QkpLTE1OUlZYVSRudWxs0wkKCwwNDlhOU1N0cmluZ1YkY2xhc3NcTlNBdHRyaWJ1dGVzgAKAFoADW1JhbW9uIEhvZWtz0xESChMXG1dOUy5rZXlzWk5TLm9iamVjdHOjFBUWgASABYAGoxgZGoAHgAuADYAVV05TQ29sb3JfEBBOU1BhcmFncmFwaFN0eWxlXxAfTVNBdHRyaWJ1dGVkU3RyaW5nRm9udEF0dHJpYnV0ZdQgISIKIyQlJlVOU1JHQlxOU0NvbG9yU3BhY2VfEBJOU0N1c3RvbUNvbG9yU3BhY2VPECcwLjk0OTcyMzYzOTUgMC45NDA2MjY5OTI4IDAuOTEzMzM3MDUyNwAQAYAIgArSKAopKlROU0lEEAGACdIsLS4vWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNDb2xvclNwYWNlojAxXE5TQ29sb3JTcGFjZVhOU09iamVjdNIsLTM0V05TQ29sb3KiMzHTNgo3JDg5XxAfTlNBbGxvd3NUaWdodGVuaW5nRm9yVHJ1bmNhdGlvblpOU1RhYlN0b3BzgAyAANIsLTs8XxAXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGWjOz0xXxAQTlNQYXJhZ3JhcGhTdHlsZdIKP0BBXxAaTlNGb250RGVzY3JpcHRvckF0dHJpYnV0ZXOAFIAO0xESCkNGSaJERYAPgBCiR0iAEYASgBNfEBNOU0ZvbnRTaXplQXR0cmlidXRlXxATTlNGb250TmFtZUF0dHJpYnV0ZSNAQgAAAAAAAF1LaHVsYS1SZWd1bGFy0iwtT1BfEBNOU011dGFibGVEaWN0aW9uYXJ5o09RMVxOU0RpY3Rpb25hcnnSLC1TVF8QEE5TRm9udERlc2NyaXB0b3KiVTFfEBBOU0ZvbnREZXNjcmlwdG9y0iwtUVeiUTHSLC1ZWl8QEk5TQXR0cmlidXRlZFN0cmluZ6JbMV8QEk5TQXR0cmlidXRlZFN0cmluZ18QD05TS2V5ZWRBcmNoaXZlctFeX1Ryb290gAEACAARABoAIwAtADIANwBRAFcAXgBnAG4AewB9AH8AgQCNAJQAnACnAKsArQCvALEAtQC3ALkAuwC9AMUA2AD6AQMBCQEWASsBVQFXAVkBWwFgAWUBZwFpAW4BeQGCAY8BkgGfAagBrQG1AbgBvwHhAewB7gHwAfUCDwITAiYCKwJIAkoCTAJTAlYCWAJaAl0CXwJhAmMCeQKPApgCpgKrAsECxQLSAtcC6gLtAwADBQMIAw0DIgMlAzoDTANPA1QAAAAAAAACAQAAAAAAAABgAAAAAAAAAAAAAAAAAAADVg=="
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "19B8E29B-6B0D-4872-8824-42183B0BEC15",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 58,
+    "width": 600,
+    "x": 18,
+    "y": 40
+  },
+  "glyphBounds": "{{3, 10}, {215, 27}}",
+  "heightIsClipped": true,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Example",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "sharedObjectID": "93ABBF3C-2223-4F2A-B1A0-A7421C35B1D6"
+  },
+  "textBehaviour": 1,
+  "userInfo": {
+    "com.invisionlabs.library/sync": {
+      "style": {
+        "colorAlpha": 1,
+        "colorHex": "#F2F0E9",
+        "fontPostscriptName": "Khula-Regular",
+        "fontSize": 36,
+        "lineHeight": 58,
+        "text": "Ramon Hoeks"
+      }
+    }
+  }
+}

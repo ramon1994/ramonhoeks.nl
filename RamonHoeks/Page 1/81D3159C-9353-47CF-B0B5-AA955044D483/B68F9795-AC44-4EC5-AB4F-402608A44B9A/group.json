@@ -14,9 +14,9 @@
     "_class": "rect",
     "constrainProportions": false,
     "height": 40,
-    "width": 215,
-    "x": 1292,
-    "y": 749
+    "width": 210,
+    "x": 1297,
+    "y": 859
   },
   "hasClickThrough": false,
   "isFlippedHorizontal": false,
@@ -28,6 +28,10 @@
     {
       "class": "shapeGroup",
       "id": "CB98C178-DA09-4485-8603-2B5A1BD151D6"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "5B77BF20-77D1-47FD-B39E-7D9E8A388FCB"
     },
     {
       "class": "shapeGroup",

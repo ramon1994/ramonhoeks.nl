@@ -14,10 +14,10 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": true,
-    "height": 40,
-    "width": 40,
+    "height": 30,
+    "width": 30,
     "x": 0,
-    "y": 0
+    "y": 5
   },
   "hasClickThrough": false,
   "hasClippingMask": false,
@@ -40,15 +40,6 @@
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
-    "borderOptions": {
-      "_class": "borderOptions",
-      "dashPattern": [
-        15
-      ],
-      "isEnabled": false,
-      "lineCapStyle": 0,
-      "lineJoinStyle": 0
-    },
     "borders": [
       {
         "_class": "border",

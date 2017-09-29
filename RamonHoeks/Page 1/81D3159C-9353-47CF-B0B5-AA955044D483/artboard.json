@@ -43,7 +43,9 @@
       80,
       180,
       1838,
-      260
+      260,
+      960,
+      1060
     ]
   },
   "includeBackgroundColorInExport": true,
@@ -61,6 +63,14 @@
     {
       "class": "shapeGroup",
       "id": "86B03E2F-5B0D-41DC-A00E-3DB73A2E7067"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "435C24EB-0DA6-40FD-A24D-368203689E3A"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "D9705128-9EC6-4802-ADC4-FD43BCE307E0"
     },
     {
       "class": "group",
@@ -107,8 +117,48 @@
       "id": "B9C4788D-0BD9-4F52-8E51-9E78C4C29801"
     },
     {
+      "class": "shapeGroup",
+      "id": "9E046BD1-7A04-4BFD-9CE0-AA57CF93BF05"
+    },
+    {
       "class": "text",
       "id": "C0271D06-5AC1-4317-BF06-FD12C738B284"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "FC45184C-A07F-4C0B-BF15-DCB10B5D014D"
+    },
+    {
+      "class": "text",
+      "id": "5574E018-DD3A-437B-9568-C3122B515553"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "D0029164-AFFD-4470-87EA-CFB3BA74C415"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "DA7822EE-BE36-48F4-A929-0D1BD0534F46"
+    },
+    {
+      "class": "text",
+      "id": "C8F6DDC4-8382-45E3-8C36-6A60BEFA3D8A"
+    },
+    {
+      "class": "group",
+      "id": "FD81C233-E9C1-4F9A-B20E-F2053C7CC3D9"
+    },
+    {
+      "class": "group",
+      "id": "C8CF84A6-5423-4423-8646-BBEB9948E440"
+    },
+    {
+      "class": "group",
+      "id": "D082E294-0DE5-4158-A5F8-4F1BBF7CAF0A"
+    },
+    {
+      "class": "bitmap",
+      "id": "31988CF1-1E74-4BA5-A328-A5F9CA20143C"
     }
   ],
   "layout": {
