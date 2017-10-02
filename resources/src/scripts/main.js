@@ -44,4 +44,11 @@ function logoPosition() {
         logo.classList.remove('left');
     }
 }
+
+function mouseLeave () {
+    var logo = document.querySelector('img');
+    logo.classList.remove('left');
+}
+
 window.addEventListener('mousemove', logoPosition);
+window.addEventListener('mouseout', mouseLeave);
