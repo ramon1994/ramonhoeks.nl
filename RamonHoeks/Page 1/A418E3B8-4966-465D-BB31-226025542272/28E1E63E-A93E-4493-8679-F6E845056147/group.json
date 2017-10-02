@@ -13,18 +13,22 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 325,
-    "width": 705,
-    "x": 1014,
-    "y": 379
+    "height": 511,
+    "width": 908,
+    "x": 912,
+    "y": 285
   },
   "hasClickThrough": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 0,
+  "layerListExpandedType": 1,
   "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "1D9728F1-860B-4CE6-AF3C-CD59498D3DD5"
+    },
     {
       "class": "bitmap",
       "id": "624F078E-C672-4049-BC04-3162CC414F6D"
@@ -58,8 +62,8 @@
       "id": "C64F4DAE-602A-43F0-B964-B5C782989664"
     }
   ],
-  "name": "Group",
-  "nameIsFixed": false,
+  "name": "Social block",
+  "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,

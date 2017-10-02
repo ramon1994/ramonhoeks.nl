@@ -40,6 +40,8 @@
     "_class": "rulerData",
     "base": 0,
     "guides": [
+      80,
+      1840
     ]
   },
   "includeBackgroundColorInExport": true,
@@ -97,8 +99,10 @@
   },
   "verticalRulerData": {
     "_class": "rulerData",
-    "base": 0,
+    "base": 35,
     "guides": [
+      45,
+      965
     ]
   }
 }
