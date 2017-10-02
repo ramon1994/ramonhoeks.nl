@@ -1,0 +1,71 @@
+{
+  "_class": "document",
+  "assets": {
+    "_class": "assetCollection",
+    "colors": [
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.3333333333333333,
+        "green": 0.1803921568627451,
+        "red": 0.1607843137254902
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.9137254901960784,
+        "green": 0.9411764705882353,
+        "red": 0.9490196078431372
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 1,
+        "green": 1,
+        "red": 1
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.4352941176470588,
+        "green": 0.4352941176470588,
+        "red": 0.4352941176470588
+      }
+    ],
+    "gradients": [
+    ],
+    "imageCollection": {
+      "_class": "imageCollection",
+      "images": {
+      }
+    },
+    "images": [
+    ]
+  },
+  "do_objectID": "F3069AB1-8927-4F57-ACB1-F3E09426B925",
+  "enableLayerInteraction": true,
+  "enableSliceInteraction": true,
+  "foreignSymbols": [
+  ],
+  "layerSymbols": {
+    "_class": "symbolContainer",
+    "objects": [
+    ]
+  },
+  "meta": {
+    "appVersion": "46.2",
+    "build": 44496,
+    "commit": "752502a5f62450dd6555e39d77a464fb4c5043e7",
+    "version": 93
+  },
+  "pages": [
+    "Page 1",
+    "Styles",
+    "Symbols"
+  ],
+  "userInfo": {
+    "com.invisionlabs.sync": {
+      "metadata": "{\"hasSynced\":0,\"hasProjectIdChanged\":0,\"projectId\":0,\"publicLink\":\"\",\"resolution\":2,\"syncAll\":1}"
+    }
+  }
+}

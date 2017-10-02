@@ -1,0 +1,49 @@
+{
+  "_class": "group",
+  "do_objectID": "1034D41F-AA46-4690-B135-ABC1CCF70DBD",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 149,
+    "width": 545,
+    "x": 686,
+    "y": 465
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "group",
+      "id": "E21D3DDB-B958-4A0C-AB18-FC652C6C7CBC"
+    },
+    {
+      "class": "bitmap",
+      "id": "28358CBE-735B-4128-8296-A09C88A7B8B8"
+    }
+  ],
+  "name": "content home slide",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}
