@@ -4,32 +4,54 @@
     <meta charset="UTF-8">
     <title>RAMON HOEKS</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/jquery.fullPage.css">
     <link href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i|Khula:300,400,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <script src="scripts/main.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-    <div id="intro">
-        <div class="main-container">
-            <div class="content-holder">
-                <div class="text">
-                    <img src="images/ramon_hoeks_logo_light.svg">
-                    <div id="text-block" class="text-inner">
-                        <h1>Ramon Hoeks</h1>
-                        <h2>Webdesign & Frontend development</h2>
+<body class="doScroller content">
+    <div id="content">
+        <div id="intro" class="section full active">
+            <div class="main-container">
+                <div class="content-holder">
+                    <div class="text">
+                        <img src="images/ramon_hoeks_logo_light.svg">
+                        <div id="text-block" class="text-inner">
+                            <h1>Ramon Hoeks</h1>
+                            <h2>Webdesign & Frontend development</h2>
+                        </div>
                     </div>
-                </div>
-                <a href="#" class="button-down">
-                    <span class="left"></span>
-                    <i class="material-icons">&#xE5DB;</i>
-                    <span class="right"></span>
-                </a>
-                <canvas>
+                    <a href="#" class="button-down">
+                        <span class="left"></span>
+                        <i class="material-icons">&#xE5DB;</i>
+                        <span class="right"></span>
+                    </a>
+                    <canvas id="draw">
 
-                </canvas>
+                    </canvas>
+                </div>
+            </div>
+        </div>
+        <div id="history" class="history section overflow-content">
+            <div class="main-container">
+                <div class="test-background">
+                    <p>Dit is de eerste slide</p>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="history section full">
+            <div class="main-container">
+                <div class="test-background">
+                    <p>Dit is de tweede slide</p>
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<!--<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="scripts/main.min.js"></script>
+<script src="scripts/scrollanimations.min.js"></script>
+<script src="scripts/vendor/jquery.fullPage.min.js"></script>
 </html>

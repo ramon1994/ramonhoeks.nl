@@ -9,11 +9,11 @@ document.onreadystatechange = function () {
 
         setTimeout(function () {
             logo.classList.add('show');
-        });
+        }, 500);
 
         setTimeout(function () {
             textInner.classList.add('show');
-        }, 500);
+        }, 1000);
 
         setTimeout(function () {
             headLine.classList.add('show');
@@ -21,11 +21,11 @@ document.onreadystatechange = function () {
 
         setTimeout(function () {
             subTitle.classList.add('show');
-        }, 1000);
+        }, 1500);
 
         setTimeout(function () {
             downButton.classList.add('show');
-        }, 1500);
+        }, 2000);
     }
 };
 
@@ -36,13 +36,12 @@ function logoPosition() {
     position.left = logoPosition.left;
     var mouseX = event.clientX;
 
-    console.log(position.left);
-
     if(mouseX < position.left) {
         logo.classList.add('left');
     } else {
         logo.classList.remove('left');
     }
+
 }
 
 function mouseLeave () {
