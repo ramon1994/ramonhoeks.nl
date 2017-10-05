@@ -205,6 +205,11 @@ canvas {
   background: #F2F0E9;
   width: 50%;
   height: 100vh;
+
+  #about &{
+    background: #1a2c51;
+    color: #f2f0e9;
+  }
 }
 
 .section {
@@ -213,11 +218,20 @@ canvas {
   //left: 0;
   //max-width: 0 !important;
   //margin-left: -100vw;
-  transition: all .5s;
+  transition-delay: 0.5s;
+  //transition-duration: 0.5s;
 
-  &:nth-child(1) {
-    margin-top: -100vh;
+  &.slide-in {
+    //transition: 1s;
   }
+
+  &.doeidoei {
+    //transition: 0.5s;
+  }
+    &:nth-child(1) {
+      top: 0;
+      margin-top: -100vh;
+    }
 
   &:nth-child(2) {
     margin-left: -100vw;
@@ -250,4 +264,50 @@ canvas {
       right: 0;
     }
   }
+}
+
+.slide-transition {
+  position: absolute;
+  background-color: #3ee7ad;
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 101;
+  transform-origin: right -100vw 0;
+  //transform: translate3d(0px, 0px, 0px, scale(0, 1));
+  transform: scaleX(0);
+  transition-duration: 0.25s;
+
+  .koekkoek & {
+    //transition-delay: 0.25s;
+    //animation: slideTransition 1.5s linear;
+  }
+
+  //@keyframes slideTransition {
+  //  0% {
+  //    width: 100vw;
+  //    height: 0;
+  //  }
+  //
+  //  25% {
+  //    position: absolute;
+  //    width: 100vw;
+  //    height: 100vh;
+  //    background: red;
+  //    z-index: 100;
+  //  }
+  //
+  //  75% {
+  //    position: absolute;
+  //    width: 100vw;
+  //    height: 100vh;
+  //    background: red;
+  //    z-index: 100;
+  //  }
+  //
+  //  100% {
+  //    width: 100vw;
+  //    height: 0;
+  //  }
+  //}
 }

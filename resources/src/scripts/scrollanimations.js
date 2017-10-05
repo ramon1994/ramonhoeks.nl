@@ -1,4 +1,4 @@
-$(function () {
+$(function newSlide() {
     var controller = new ScrollMagic.Controller();
     var scene = new ScrollMagic.Scene({triggerElement: ".overflow-content", duration: "100%"})
         .setPin("#pin")
@@ -6,6 +6,7 @@ $(function () {
         .addTo(controller);
 
     $('#content').fullpage({
+
         scrollOverflow: true,
         scrollOverflowOptions: {
             // don't scroll horizontal
@@ -20,6 +21,29 @@ $(function () {
             useTransition: false,
             probeType: 3,
             click: true
-        }
+        },
+
+        onLeave: function(index, nextIndex, direction) {
+            var sections = $('#content').children('');
+
+            // $('body').addClass('koekkoek');
+            // window.setTimeout(function(){$('body').removeClass('koekkoek');}, 1500);
+
+            $('.slide-transition').css({transform: "scaleX(1)"});
+            $('.slide-transition').css({transformOrigin: "right 100% 0"});
+            window.setTimeout(function(){$('.slide-transition').css({transformOrigin: "left 100% 0"});}, 200);
+            window.setTimeout(function(){$('.slide-transition').css({transform: "scaleX(0)"});}, 500);
+            window.setTimeout(function(){$('.slide-transition').css({transformOrigin: "left 0% 0"});}, 500);
+            window.setTimeout(function(){$('.slide-transition').css({transformOrigin: "right 100% 0"});}, 750);
+
+            $(sections[index -1]).addClass('doeidoei');
+            $(sections[index -1]).removeClass('slide-in');
+            $(sections[nextIndex -1]).removeClass('doeidoei');
+            window.setTimeout(function(){$(sections[nextIndex -1]).addClass('slide-in');}, 1000);
+        },
     });
+});
+
+$('.button-down').click(function(){
+    $.fn.fullpage.moveSectionDown();
 });
