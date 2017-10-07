@@ -1,0 +1,83 @@
+/*
+
+  - Content -
+
+  Please use the following declaration order:
+  1. Positioning
+  2. Box model
+  3. Typographic
+  4. Visual
+
+*/
+
+// General
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: $base-padding-large;
+  justify-content: center;
+}
+
+.content-holder {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  position: absolute !important; // Important to overwrite the javascript
+  transition-delay: 0.5s;
+
+  &:nth-child(1) {
+    top: 0;
+    margin-top: -100vh;
+  }
+
+  &:nth-child(2) {
+    margin-left: -100vw;
+    left: 0;
+  }
+
+  &:nth-child(3) {
+    margin-right: -100vw;
+    right: 0;
+  }
+
+  &.active {
+    position: absolute !important;
+
+    &:nth-child(1) {
+      margin-top: 0;
+    }
+
+    &:nth-child(2) {
+      margin-left: 0;
+      left: 0;
+    }
+
+    &:nth-child(3) {
+      margin-right: 0;
+      right: 0;
+    }
+  }
+}
+
+// Animations
+
+.slide-transition {
+  position: absolute;
+  background-color: #3ee7ad;
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 101;
+  transform-origin: right -100vw 0;
+  transform: scaleX(0);
+  transition-duration: 0.25s;
+}

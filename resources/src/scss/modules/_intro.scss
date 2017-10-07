@@ -1,0 +1,111 @@
+/*
+
+  - Content -
+
+  Please use the following declaration order:
+  1. Positioning
+  2. Box model
+  3. Typographic
+  4. Visual
+
+*/
+
+// General
+
+.background-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #292E55;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: auto;
+  justify-content: center;
+
+  img {
+    width: 80px;
+    max-height: 0;
+    vertical-align: middle;
+    transition: all 1s;
+
+    &.left {
+      transform: scaleX(-1);
+    }
+
+    &.show {
+      .active & {
+        max-height: 300px;
+      }
+    }
+  }
+
+  .text-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    vertical-align: middle;
+    max-width: 0;
+    min-height: 100px;
+    transition: all 0.5s;
+
+    &.show {
+      max-width: 500px;
+    }
+  }
+
+  h1, h2 {
+    max-width: 0;
+    overflow: hidden;
+    color: #F2F0E9;
+    transition: all 0.5s;
+  }
+
+  h1 {
+    font-family: 'Khula', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 18pt;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+    &.show {
+      max-width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+
+  h2 {
+    font-family: 'Cousine', monospace;
+    font-size: 18px;
+    letter-spacing: 3pt;
+    font-weight: 400;
+    margin: 0;
+
+    &.show {
+      max-width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
+
+//TODO
+
+.test-background {
+  background: #F2F0E9;
+  width: 50%;
+  height: 100vh;
+
+  #about &{
+    background: #1a2c51;
+    color: #f2f0e9;
+  }
+}

@@ -7,7 +7,7 @@ $(function newSlide() {
 
     $('#content').fullpage({
 
-        scrollOverflow: true,
+        scrollOverflow: false,
         scrollOverflowOptions: {
             // don't scroll horizontal
             scrollX: false,
@@ -20,6 +20,7 @@ $(function newSlide() {
             useTransform: false,
             useTransition: false,
             probeType: 3,
+            css: false,
             click: true
         },
 

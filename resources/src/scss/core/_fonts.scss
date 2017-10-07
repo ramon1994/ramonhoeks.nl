@@ -1,0 +1,17 @@
+/*
+
+  - Content -
+
+  Please use the following declaration order:
+  1. Positioning
+  2. Box model
+  3. Typographic
+  4. Visual
+
+*/
+
+// General
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: $font-title;
+}

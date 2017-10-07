@@ -1,0 +1,57 @@
+/*
+
+  - Variables -
+
+*/
+
+// -- Color variables
+
+// Color brand
+$color-brand-dark: #1a2c51;
+$color-brand-light: #F2F0E9;
+
+// Color font
+$color-font-dark: #6f6f6f;
+
+// Color defaul
+$color-white: #ffffff;
+$color-black: #000000;
+
+// -- default values
+
+// Padding
+$base-padding: 20px;
+$base-padding-small: ($base-padding / 2);
+$base-padding-large: ($base-padding * 2);
+
+// -- Fonts
+
+// Font families
+$font-title: 'Khula', sans-serif;
+$font-paragraph: 'Cousine', monospace;
+
+// Font sizes
+$base-font-size: 14px;
+$base-font-size-large: 18px;
+
+// -- Breakpoints
+
+$breakpoint-xs: 320px;
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1180px;
+
+// Min width
+$breakpoint-xs-min: $breakpoint-xs;
+$breakpoint-sm-min: $breakpoint-sm;
+$breakpoint-md-min: $breakpoint-md;
+$breakpoint-lg-min: $breakpoint-lg;
+$breakpoint-xl-min: $breakpoint-xl;
+
+// Max width
+$breakpoint-xs-max: ($breakpoint-xs - 1);
+$breakpoint-sm-max: ($breakpoint-sm - 1);
+$breakpoint-md-max: ($breakpoint-md - 1);
+$breakpoint-lg-max: ($breakpoint-lg - 1);
+$breakpoint-xl-max: ($breakpoint-xl - 1);

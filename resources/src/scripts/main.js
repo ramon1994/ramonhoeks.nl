@@ -29,19 +29,16 @@ document.onreadystatechange = function () {
     }
 };
 
-function logoPosition() {
+function logoPosition(event) {
     var logo = document.querySelector('img');
     var logoPosition = document.querySelector('img').getBoundingClientRect();
-    var position = {};
-    position.left = logoPosition.left;
     var mouseX = event.clientX;
 
-    if(mouseX < position.left) {
+    if(mouseX < logoPosition.left) {
         logo.classList.add('left');
     } else {
         logo.classList.remove('left');
     }
-
 }
 
 function mouseLeave () {

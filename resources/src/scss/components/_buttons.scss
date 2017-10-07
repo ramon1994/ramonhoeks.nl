@@ -1,0 +1,116 @@
+/*
+
+  - Content -
+
+  Please use the following declaration order:
+  1. Positioning
+  2. Box model
+  3. Typographic
+  4. Visual
+
+*/
+
+// Local variables
+$button-element-thickness: 3px;
+$button-element-length: 10px;
+$button-element-offset: -2px;
+
+// General
+
+.button-down {
+  position: absolute;
+  bottom: $base-padding-large;
+  padding: $base-padding-small;
+  color: $color-brand-light;
+  border: 1px solid rgba(242, 240, 233, 0.30);
+  opacity: 0;
+  transition: all 0.5s;
+
+  &.show {
+    opacity: 1;
+  }
+
+  .left {
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: $button-element-offset;
+      top: calc(50% - (10px / 2)); // Element length is 10px;
+      display: block;
+      width: $button-element-thickness;
+      height: $button-element-length;
+      background: $color-brand-light;
+      transition: all 0.25s;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: $button-element-offset;
+      left: calc(50% - (10px / 2)); // Element length is 10px;
+      display: block;
+      width: $button-element-length;
+      height: $button-element-thickness;
+      background: $color-brand-light;
+      transition: all 0.25s;
+    }
+  }
+
+  .right {
+
+    &:before {
+      content: '';
+      position: absolute;
+      right: $button-element-offset;
+      bottom: calc(50% - (10px / 2)); // Element length is 10px;
+      display: block;
+      width: $button-element-thickness;
+      height: $button-element-length;
+      background: $color-brand-light;
+      transition: all 0.25s;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: $button-element-offset;
+      right: calc(50% - (10px / 2)); // Element length is 10px;
+      display: block;
+      width: $button-element-length;
+      height: $button-element-thickness;
+      background: #F2F0E9;
+      transition: all 0.25s;
+    }
+  }
+
+  &:hover {
+
+    .left {
+
+      &:before {
+        left: $button-element-offset;
+        top: $button-element-offset;
+      }
+
+      &:after {
+        top: $button-element-offset;
+        left: $button-element-offset;
+      }
+    }
+
+    .right {
+
+      &:before {
+        right: $button-element-offset;
+        bottom: $button-element-offset;
+      }
+
+      &:after {
+        bottom: $button-element-offset;
+        right: $button-element-offset;
+      }
+    }
+
+  }
+}
