@@ -1,0 +1,57 @@
+/*
+
+  - History -
+
+  Please use the following declaration order:
+  1. Positioning
+  2. Box model
+  3. Typographic
+  4. Visual
+
+*/
+
+.history {
+
+  .inner-content {
+    padding: 160px;
+
+    h3 {
+      position: relative;
+      display: inline-block;
+      padding: $base-padding;
+      text-transform: uppercase;
+      color: $color-brand-dark;
+      letter-spacing: 5pt;
+      font-weight: 400;
+      line-height: 18px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-left: 3px solid $color-brand-dark;
+        border-top: 3px solid $color-brand-dark;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid $color-brand-dark;
+        border-bottom: 3px solid $color-brand-dark;
+      }
+    }
+
+    p {
+      line-height: 30px;
+    }
+  }
+}
